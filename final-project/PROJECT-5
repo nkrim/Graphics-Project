@@ -1,0 +1,26 @@
+For project 6, we plan to make things towards creating
+a multiplayer Tanks game, with bombs and things that can impact the environment.
+
+
+As such, we'd need:
+    - robust animations
+        - perhaps view blur
+    - robust collisions
+    - robust physics system
+    - particle system for impacts
+    - lighting system for potentially a 'night' mode
+    - potential ambient occlusion for tanks
+    - potential normal mapping for tanks
+
+We also would want:
+    - a cool water rendering system
+        - perhaps physics for impacts as well
+    - day/night cycles
+        - with correct tinting, potentially rotation or movement of sky cube.
+
+
+
+
+NOTES FOR CURRENT MAP:
+we impleemnted delta timing, so when the movement speed is slow, 
+it's because hte map is very large, so distances seems smaller.

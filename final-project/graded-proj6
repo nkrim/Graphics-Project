@@ -1,0 +1,23 @@
+/* Project 6 Rubric */
+/*CMSC 23700, Fall 2015 */
+
+/* === Correctness === */
+/* Basic Renderer with directional lighting            10/10  */ 
+/* Morphing                                            20/20  */ 
+/* View Frustum Culling                                35/35  */
+/* Fog                                                 20/20  */ 
+/* Embellishments                                     100/100 
+
+This was really great work!! The amount of features were more than enough! Great job Noah & Victor! 
+
+*/ 
+/* Project Demo                                        100/100 */ 
+/* Documentation                                       10/15 
+
+Documentation is lacking inside your shader program. 
+
+*/ 
+
+/* _TOTAL-SCORE_   295/300 */
+
+/* graded by Lamont */ 

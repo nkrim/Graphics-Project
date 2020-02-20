@@ -1,0 +1,483 @@
+buffer-cache.o: ../src/buffer-cache.cxx ../src/buffer-cache.hxx \
+  ../../common/include/cs237.hxx ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/map-cell.hxx \
+  ../src/map.hxx ../src/qtree-util.hxx ../../common/include/tqt.hxx
+camera.o: ../src/camera.cxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/camera.hxx
+grass.o: ../src/grass.cxx ../src/grass.hxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/camera.hxx \
+  ../src/map-cell.hxx ../src/map.hxx ../src/qtree-util.hxx \
+  ../../common/include/tqt.hxx ../src/buffer-cache.hxx \
+  ../src/texture-cache.hxx ../src/view.hxx ../src/skybox.hxx \
+  ../src/rain.hxx ../src/viewfrustum.hxx
+main.o: ../src/main.cxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/map.hxx \
+  ../src/map-cell.hxx ../src/qtree-util.hxx ../../common/include/tqt.hxx \
+  ../src/view.hxx ../src/camera.hxx ../src/buffer-cache.hxx \
+  ../src/skybox.hxx ../src/texture-cache.hxx ../src/grass.hxx \
+  ../src/rain.hxx ../src/viewfrustum.hxx
+map-cell.o: ../src/map-cell.cxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/map.hxx \
+  ../src/map-cell.hxx ../src/qtree-util.hxx ../../common/include/tqt.hxx
+map.o: ../src/map.cxx ../../common/include/json.hxx \
+  ../../common/include/cs237.hxx ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/map.hxx \
+  ../src/map-cell.hxx ../src/qtree-util.hxx ../../common/include/tqt.hxx
+movement.o: ../src/movement.cxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/view.hxx ../src/map.hxx \
+  ../src/camera.hxx ../src/buffer-cache.hxx ../src/map-cell.hxx \
+  ../src/qtree-util.hxx ../../common/include/tqt.hxx ../src/skybox.hxx \
+  ../src/texture-cache.hxx ../src/grass.hxx ../src/rain.hxx \
+  ../src/viewfrustum.hxx
+rain.o: ../src/rain.cxx ../src/rain.hxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/camera.hxx \
+  ../src/map-cell.hxx ../src/map.hxx ../src/qtree-util.hxx \
+  ../../common/include/tqt.hxx ../src/buffer-cache.hxx \
+  ../src/texture-cache.hxx ../src/view.hxx ../src/skybox.hxx \
+  ../src/grass.hxx ../src/viewfrustum.hxx
+render.o: ../src/render.cxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/view.hxx ../src/map.hxx \
+  ../src/camera.hxx ../src/buffer-cache.hxx ../src/map-cell.hxx \
+  ../src/qtree-util.hxx ../../common/include/tqt.hxx ../src/skybox.hxx \
+  ../src/texture-cache.hxx ../src/grass.hxx ../src/rain.hxx \
+  ../src/viewfrustum.hxx
+skybox.o: ../src/skybox.cxx ../src/skybox.hxx \
+  ../../common/include/cs237.hxx ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/camera.hxx \
+  ../src/map-cell.hxx ../src/map.hxx ../src/qtree-util.hxx \
+  ../../common/include/tqt.hxx ../src/buffer-cache.hxx \
+  ../src/texture-cache.hxx
+texture-cache.o: ../src/texture-cache.cxx ../src/texture-cache.hxx \
+  ../../common/include/tqt.hxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx
+view.o: ../src/view.cxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/view.hxx ../src/map.hxx \
+  ../src/camera.hxx ../src/buffer-cache.hxx ../src/map-cell.hxx \
+  ../src/qtree-util.hxx ../../common/include/tqt.hxx ../src/skybox.hxx \
+  ../src/texture-cache.hxx ../src/grass.hxx ../src/rain.hxx \
+  ../src/viewfrustum.hxx
+viewfrustum.o: ../src/viewfrustum.cxx ../src/viewfrustum.hxx \
+  ../../common/include/cs237.hxx ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/camera.hxx
+walking.o: ../src/walking.cxx ../../common/include/cs237.hxx \
+  ../../common/include/cs237-types.hxx \
+  ../../common/include/cs237-vec2.hxx \
+  ../../common/include/cs237-vec3.hxx \
+  ../../common/include/cs237-vec4.hxx \
+  ../../common/include/cs237-mat2x2.hxx \
+  ../../common/include/cs237-mat2x3.hxx \
+  ../../common/include/cs237-mat3x2.hxx \
+  ../../common/include/cs237-mat3x3.hxx \
+  ../../common/include/cs237-mat4x4.hxx \
+  ../../common/include/cs237-quat.hxx \
+  ../../common/include/cs237-aabb.hxx \
+  ../../common/include/cs237-color.hxx \
+  ../../common/include/cs237-transform.hxx \
+  ../../common/include/cs237-image.hxx \
+  ../../common/include/cs237-texture.hxx \
+  ../../common/include/cs237-shader.hxx \
+  ../../common/include/cs237-util.inl \
+  ../../common/include/cs237-vec2.inl \
+  ../../common/include/cs237-vec3.inl \
+  ../../common/include/cs237-vec4.inl \
+  ../../common/include/cs237-mat2x2.inl \
+  ../../common/include/cs237-mat2x3.inl \
+  ../../common/include/cs237-mat3x2.inl \
+  ../../common/include/cs237-mat3x3.inl \
+  ../../common/include/cs237-mat4x4.inl \
+  ../../common/include/cs237-quat.inl \
+  ../../common/include/cs237-aabb.inl \
+  ../../common/include/cs237-color.inl \
+  ../../common/include/cs237-shader.inl \
+  ../../common/include/cs237-sphere.hxx \
+  ../../common/include/cs237-window.hxx ../src/view.hxx ../src/map.hxx \
+  ../src/camera.hxx ../src/buffer-cache.hxx ../src/map-cell.hxx \
+  ../src/qtree-util.hxx ../../common/include/tqt.hxx ../src/skybox.hxx \
+  ../src/texture-cache.hxx ../src/grass.hxx ../src/rain.hxx \
+  ../src/viewfrustum.hxx

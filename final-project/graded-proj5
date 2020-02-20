@@ -1,0 +1,148 @@
+/* Project 5 Rubric */
+/*CMSC 23700, Fall 2015 */
+
+/* === Correctness === */
+/* Basic renderer with directional lighting   30/35 
+
+The main issue is that you should be attaching VAOs
+to Tiles, instead of using vectors of VAOs.
+
+Also, the unnecessary reformatting of the sample code makes it more difficult to provide useful
+feedback.
+
+Index: final-project/shaders/default.vsh
+===================================================================
+--- final-project/shaders/default.vsh	(revision 30)
++++ final-project/shaders/default.vsh	(working copy)
+@@ -16,6 +16,7 @@
+out vec2 f_tCoord;
+
+void main () {
++// FEEDBACK: you will want to split this transform up as described in Section 4.1 of the handout
+    gl_Position = projection * modelView * toWorld * vec4(position.xyz,1.0);
+
+    f_tCoord = vec2(
+Index: final-project/src/buffer-cache.cxx
+===================================================================
+--- final-project/src/buffer-cache.cxx	(revision 30)
++++ final-project/src/buffer-cache.cxx	(working copy)
+@@ -33,6 +33,7 @@
+}
+
+// load data from the chunk
++// FEEDBACK: what is the point of this change in the type of Load?
+void VAO::Load (class Tile* tile) {
+    assert (this->_inUse);
+    struct Chunk const &chunk = tile->Chunk();
+Index: final-project/src/buffer-cache.hxx
+===================================================================
+--- final-project/src/buffer-cache.hxx	(revision 30)
++++ final-project/src/buffer-cache.hxx	(working copy)
+@@ -27,6 +27,8 @@
+    GLuint     _nIndices;	//!< the number of indices in the element buffer
+    bool       _inUse;		     //!< true when this VAO is assigned to a chunk
+
++// FEEDBACK: you don't need to change the VAO definition, the buffer
++// cache is just to manage non-active VAO IDs.
+    int _r; // row and column
+    int _c; // of the chunk
+    int _lod; // ugh
+Index: final-project/src/render.cxx
+===================================================================
+--- final-project/src/render.cxx	(revision 30)
++++ final-project/src/render.cxx	(working copy)
+@@ -183,6 +183,7 @@
+    for (auto r = 0; r < _map->nRows(); r++) {
+        for (auto c = 0; c < _map->nCols(); c++) {
+            // Create a map for the cell and push it onto the vaos vector
++// FEEDBACK: attach VAOs to Tiles!  No need for this map!
+            std::map<uint32_t, VAO *> vaoMap;
+            // this is a cell
+            class Cell *cell = _map->Cell(r, c);
+@@ -308,6 +309,8 @@
+        // Else recurse on the children of the tile
+        // and concatenate their resutls in the out vector
+        else    {
++// FEEDBACK: this extra vector data structure is going to slow things down.  Just mark visible
++// tiles in a pass over the tree and then render them in a second pass
+            for(int i=0; i<root->NumChildren(); i++) {
+                std::vector<Tile *> result = GetLODTiles(root->Child(i));
+                for(auto it = result.begin(); it != result.end(); it++) {
+Index: final-project/src/view.hxx
+===================================================================
+--- final-project/src/view.hxx	(revision 30)
++++ final-project/src/view.hxx	(working copy)
+@@ -70,8 +70,8 @@
+
+} Quad;
+
++// FEEDBACK: put your skybox code is its own file(s) for better code organization
+
+-
+typedef struct SkyBox_t {
+  // left right top bottom near far
+  struct Quad_t sides[6];
+@@ -82,7 +82,7 @@
+  void InitCoords(Camera cam);
+} SkyBox;
+
+-
++// FEEDBACK: put your frustum code is its own file(s) for better code organization
+typedef struct ViewFrustum_t {
+  cs237::vec3f neartl;
+  cs237::vec3f neartr;
+@@ -110,7 +110,7 @@
+} ViewFrustum;
+
+
+-
++// FEEDBACK: ???
+typedef struct FakeMesh_t {
+
+    GLuint vao_id;
+@@ -229,6 +229,7 @@
+
+
+    // locations of variables
++// FEEDBACK: could use some documentation here!
+    int _mvLoc;
+    int _twLoc;
+    int _projLoc;
+@@ -270,6 +271,7 @@
+    // FakeMeshes
+    std::vector<FakeMesh*> FakeMeshes;
+
++// FEEDBACK: VAOs shoud be attached to tiles!
+    // buffer cache and vao vector
+    // Vector of maps, where each cell has a map
+    // Each map has keys from tiles to their respective vao, if it is active
+
+
+
+*/ 
+
+/* subtotal   30/35 */ 
+
+/* === Style, etc. === */
+/* Code documentation, indentation and layout         2/5 
+
+Shaders lacking some documentation. 
+
+*/
+/* Code clarity                                       5/5 */
+/* Code reuse                                         5/5 */
+
+/* subtotal  12/15 */ 
+/* 
+
+/* === Extra Credit === */
+/* View frustum culling        0/10 */
+/* Morphing 			 	   0/10 */ 
+/* Fog			   	 		   0/10 */ 
+
+/* Cool skybox!  5  extra credit points! */ 
+
+
+/* _TOTAL-SCORE_    42 + 5 /50 */
+
+/* graded by Lamont */

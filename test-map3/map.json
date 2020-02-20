@@ -1,0 +1,21 @@
+{
+    "name" : "Synthetic map 3",
+    "version" : 1,
+    "h-scale" : 10,
+    "v-scale" : 0.00676937,
+    "base-elev" : 40.328,
+    "min-elev" : 40.328,
+    "max-elev" : 262.14,
+    "width" : 2048,
+    "height" : 2048,
+    "cell-size" : 1024,
+    "color-map" : true,
+    "normal-map" : true,
+    "water-map" : true,
+    "sun-dir" : [ -0.5, 1, -0.2 ],
+    "sun-intensity" : [ 0.8, 0.8, 0.8 ],
+    "ambient" : [ 0.2, 0.2, 0.2 ],
+    "fog-color" : [ 0.725, 0.722, 0.612 ],
+    "fog-density" : 0.0002,
+    "grid" : [ "00_00", "00_01", "01_00", "01_01" ]
+}
