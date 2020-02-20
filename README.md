@@ -84,4 +84,4 @@ Credits
 Victor Jiao and Noah Krim
 
 
-[sample]: https://github.com/nkrim/Graphics-Project/sample_image.png "Sample Rendering"
+[sample]: https://github.com/nkrim/Graphics-Project/raw/master/sample_image.png "Sample Rendering"
