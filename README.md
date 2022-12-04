@@ -19,6 +19,7 @@ FINAL PROJECT - grp1411
 
 Controls
 --------
+```
 Feature toggle controls
   w: toggle wireframe
   l: toggle lighting
@@ -34,6 +35,7 @@ Miscellanious controls
   +: increase screen-space error tolerance
   -: decrease screen-space error tolerance
   q: quit
+```
 
 Features
 -----------------------
