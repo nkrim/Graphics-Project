@@ -78,6 +78,7 @@ Features
 
 Comments / Issues
 -----------------
+- Texture and LOD morphing are intentionally exaggerated to display their effect clearly. This would be tuned down in a practical application.
 - Wireframe mode may be slow due to GPU branching since one shader is used for all mesh rendering
 - Large maps may be slowed by the fact that water reflections are rendered by rendering the mesh again, reversed, underneath itself
 - Some maps with larger bodies of water will have some artifacts from the skirts of the reflected mesh poking through the water
