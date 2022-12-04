@@ -9,7 +9,7 @@ Build and Run
 -------------
 Run `make` in `final-project/build`
 
-To run on the intended map, run `./proj5 ../../test-map3/` (in the same build directory)
+To run on the intended map, run `./proj5 ../data/test-map3/` (in the same build directory)
 
 (Only tested to work on MacOSX systems)
 
